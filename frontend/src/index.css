@@ -12,15 +12,16 @@ body, html {
   color: #fff;
 }
 
+header {
+  height: 220px;
+  background: linear-gradient(180deg, #102347 0%, #181818 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 a, a:hover, a:visited {
   color: unset;
   text-decoration: none;
 }
 
-header {
-  height: 220px;
-  background: linear-gradient(180deg, #102347 0%, #181818 100%);
-display: flex;
-align-items: center;
-justify-content: center;
-}
